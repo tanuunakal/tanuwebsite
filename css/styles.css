@@ -4090,11 +4090,11 @@ td:last-child {
     margin-top      : auto;
     padding-top     : var(--vspace-6);
     padding-bottom  : var(--bottom-padding);
-    color           : var(--color-gray-10);
+    color           : var(--color-gray-15);
 }
 
 .s-footer h5 {
-    color     : white;
+    color     : black;
     margin-top: 0;
 }
 
@@ -4108,7 +4108,7 @@ td:last-child {
 
 .s-footer__block a:focus,
 .s-footer__block a:hover {
-    color: white;
+    color: black;
 }
 
 .s-footer__about {
@@ -4120,10 +4120,10 @@ td:last-child {
 }
 
 .s-footer__buttons {
-    --color-btn-stroke           : white;
-    --color-btn-stroke-text      : white;
-    --color-btn-stroke-hover     : white;
-    --color-btn-stroke-hover-text: var(--color-text-dark);
+    --color-btn-stroke           : black;
+    --color-btn-stroke-text      : black;
+    --color-btn-stroke-hover     : black;
+    --color-btn-stroke-hover-text: white;
     margin-top                   : var(--vspace-0_75);
     margin-bottom                : var(--vspace-2_5);
 }
@@ -4169,7 +4169,7 @@ td:last-child {
 
 .s-footer .link-list a:focus,
 .s-footer .link-list a:hover {
-    color: white;
+    color: black;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4239,7 +4239,7 @@ td:last-child {
     height         : var(--vspace-1_75);
     width          : var(--vspace-1_75);
     border-radius  : 50%;
-    border         : 2px solid white;
+    border         : 2px solid black;
     margin-right   : var(--vspace-0_75);
     position       : relative;
 }
@@ -4250,7 +4250,7 @@ td:last-child {
 }
 
 .ss-go-top svg path {
-    fill: white;
+    fill: black;
 }
 
 /* ------------------------------------------------------------------- 
