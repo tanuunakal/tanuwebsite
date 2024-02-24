@@ -3476,31 +3476,6 @@ td:last-child {
     margin        : 0;
     padding       : 0;
 }
-
-.typewriter{
-    position: relative
-}
-
-.typewriter::after{
-    content: '|';
-    position: absolute;
-    right: 0;
-    background-color: var(--color-gray-10);
-    width: 100%;
-    animation: typing 6s steps(62, end) alternate infinite,
-                line 1s infinite;
-}
-
-@keyframes typing{
-    to{
-        width: 8%
-    }
-}
-@keyframes line{
-    50%{
-        color: transparent;
-    }
-}
 /* --------------------------------------------------------------------
  * ## intro btn cv download
  * -------------------------------------------------------------------- */
